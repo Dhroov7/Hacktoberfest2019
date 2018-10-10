@@ -9,8 +9,9 @@
 ```
 git add -A
 git commit -m "your name"
+git remote set-url origin "your repo url"
 git push origin master
 ```
-5. The create your pull request.
+5. Then create your pull request.
 6. Star my repository.
 7. Congratulations!! you have successfully created your pull request.
