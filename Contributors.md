@@ -5,3 +5,4 @@
 3. [Vinay Sagar Sharma](https://github.com/vinay72)
 4. [Amrita Singha Roy](https://github.com/Amrito1996)
 5. [Soul Spark](https://github.com/soulspark666)
+6. [AlminCode](https://github.com/AlminCode)
