@@ -18,3 +18,4 @@ When you modified the template you need to add them to the spaces between the "|
 8. [Danielli Costa](https://github.com/daniellic9/)
 9. [Anand Tyag](https://github.com/ananddtyagi)
 10. [David Morosini](https://github.com/davidmorosini)
+11. [Pranav Gupta](https://github.com/pg07codes)
