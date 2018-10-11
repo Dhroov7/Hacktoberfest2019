@@ -14,4 +14,5 @@ When you modified the template you need to add them to the spaces between the "|
 4. [Amrita Singha Roy](https://github.com/Amrito1996)
 5. [Soul Spark](https://github.com/soulspark666)
 6. [AlminCode](https://github.com/AlminCode)
-7. [Anand Tyag](https://github.com/ananddtyagi)
+7. [Danielli Costa](https://github.com/daniellic9/)
+8. [Anand Tyag](https://github.com/ananddtyagi)
