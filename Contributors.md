@@ -6,3 +6,4 @@
 4. [Amrita Singha Roy](https://github.com/Amrito1996)
 5. [Soul Spark](https://github.com/soulspark666)
 6. [AlminCode](https://github.com/AlminCode)
+7. [sakshi pareek](https://github.com/sakshipareek)
