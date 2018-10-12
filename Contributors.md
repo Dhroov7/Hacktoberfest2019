@@ -23,3 +23,4 @@ When you modified the template you need to add them to the spaces between the "|
 13. [sakshi pareek](https://github.com/sakshipareek)
 14. [Sayan Mondal](https://github.com/sayanmondal2098)
 15. [Jake Smith](https://github.com/jakesmithdeveloper)
+16. [Jerome Bezet-Torres](https://github.com/JM2K69)
