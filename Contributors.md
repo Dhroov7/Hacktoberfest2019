@@ -22,4 +22,7 @@ When you modified the template you need to add them to the spaces between the "|
 11. [Pranav Gupta](https://github.com/pg07codes)
 12. [Leila](https://github.com/leila-tk)
 13. [sakshi pareek](https://github.com/sakshipareek)
-14. [Eric Shen](https://github.com/ericmshen) 
+14. [Sayan Mondal](https://github.com/sayanmondal2098)
+15. [Jake Smith](https://github.com/jakesmithdeveloper)
+16. [Jerome Bezet-Torres](https://github.com/JM2K69)
+17. [Eric Shen](https://github.com/ericmshen) 
