@@ -36,3 +36,4 @@ When you modified the template you need to add them to the spaces between the "|
 24. [Verstraete Romain](https://github.com/plasmagun86)
 25. [Andrew M. S. Boyd](https://github.com/andrewmsboyd)
 26. [Fredrik Butler](https://github.com/fredrikbw)
+27. [Sebastian Racedo](https://github.com/JoaoRacedo)
