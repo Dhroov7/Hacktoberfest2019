@@ -14,3 +14,4 @@ git push origin master
 5. The create your pull request.
 6. Star my repository.
 7. Congratulations!! you have successfully created your pull request.
+8. Check your progress here (https://hacktoberfest.digitalocean.com/stats)
