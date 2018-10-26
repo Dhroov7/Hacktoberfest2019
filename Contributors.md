@@ -44,3 +44,6 @@ When you modified the template you need to add them to the spaces between the "|
 32. [Ashi Joshi](http://github.com/AshiJoshi)
 33. [Wan Cheuk Lun](http://github.com/winsonrich)
 34. [Emi Zo](http://github.com/eminazolota)
+35. [Yusuf Adefolahan ](http://github.com/sanxy)
+36. [Carlos Daniel](http://github.com/cardangi)
+37. [Niharika Krishnan](https://github.com/niharikakrishnan)
