@@ -58,3 +58,4 @@ When you modified the template you need to add them to the spaces between the "|
 45. [Josh Caulfield](https://github.com/coolfield)
 46. [Drew Ku](https://github.com/drookoo)
 47. [Ali Goktas](https://github.com/alig06)
+48. [Brandon Li](http://github.com/DragonFyZex)
