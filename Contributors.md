@@ -60,4 +60,6 @@ When you modified the template you need to add them to the spaces between the "|
 47. [Ali Goktas](https://github.com/alig06)
 48. [Brandon Li](http://github.com/DragonFyZex)
 49. [Steven T](http://github.com/z717)
-50. [Major Monge](https://github.com/MajorMonge)
+50. [Wilker](http://github.com/Wilker)
+51. [Rajesh] 
+52. [Major Monge](https://github.com/MajorMonge)
