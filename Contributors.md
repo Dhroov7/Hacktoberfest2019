@@ -63,3 +63,5 @@ When you modified the template you need to add them to the spaces between the "|
 50. [Wilker](http://github.com/Wilker)
 51. [Rajesh] 
 52. [Major Monge](https://github.com/MajorMonge)
+53. [Amitrajit Bose](https://github.com/amitrajitbose)
+
