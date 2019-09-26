@@ -1,0 +1,16 @@
+//A C program to calculate number of digits in a number using recursion.
+#include<stdio.h>
+int countDigits(int n)	//The recursive function
+{
+	if(n==0)	//The Base condition
+		return 0;
+	return 1+countDigits(n/10);
+}
+int main()	//The main function
+{
+	int n;
+	printf("Enter the number n\n");
+	scanf("%d",&n);
+	int res=countDigits(n);
+	printf("The number of digits in the number are : %d",res);
+}
