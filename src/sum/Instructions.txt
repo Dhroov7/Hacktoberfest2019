@@ -1,0 +1,3 @@
+- Create a sum function in any programming language you want.
+
+- Add that file in sum folder.
