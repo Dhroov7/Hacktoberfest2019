@@ -7,4 +7,4 @@ const checkPalindrome = (str) => {
   return reverseStr === lowRegStr;
 }
 
-palindrome("A man, a plan, a canal. Panama");
+checkPalindrome("A man, a plan, a canal. Panama");
