@@ -15,3 +15,4 @@ git push origin master
 6. Star my [repository](https://github.com/Dhroov7/HacktoberFest2019).
 7. Congratulations!! You have successfully created your pull request.
 8. Check your progress here (https://hacktoberfest.digitalocean.com/profile)
+9. Check some cute puppies here (https://i2.wp.com/metro.co.uk/wp-content/uploads/2018/03/739281687.jpg?quality=90&strip=all&zoom=1&resize=644%2C429&ssl=1)
