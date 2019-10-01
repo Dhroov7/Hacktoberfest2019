@@ -67,3 +67,4 @@ When you modified the template you need to add them to the spaces between the "|
 54. [Kedarisetti Sree Vamsi](https://github.com/KedarisettiSreeVamsi)
 55. [Muhammad Umer Farooq](https://github.com/Lablnet/HacktoberFest2019)
 56. [Sagar Agarwal](https://github.com/sagar-wal)
+57. <img src="https://avatars2.githubusercontent.com/u/39955081?s=400&u=f85e2b6ec17fcc3032f5369fb81da42e09a26e17&v=4" width="100px;"/><br /><sub><b> John-Paul Kelly </b></sub>]( https://github.com/jpk3lly ) 
