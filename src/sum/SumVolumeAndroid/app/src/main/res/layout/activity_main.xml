@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu_kubus"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#20b2aa">
+
+                <ImageView
+                    style="@style/IconMenu"
+                    android:contentDescription="@string/kubus"
+                    android:src="@drawable/ic_kubus" />
+
+                <TextView
+                    style="@style/TextMenu"
+                    android:text="@string/kubus" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu_balok"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#daa520">
+
+                <ImageView
+                    style="@style/IconMenu"
+                    android:contentDescription="@string/balok"
+                    android:src="@drawable/ic_balok" />
+
+                <TextView
+                    style="@style/TextMenu"
+                    android:text="@string/balok" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu_limas_segiempat"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#800080">
+
+                <ImageView
+                    style="@style/IconMenu"
+                    android:contentDescription="@string/limas_segiempat"
+                    android:src="@drawable/ic_limas_segi_empat" />
+
+                <TextView
+                    style="@style/TextMenu"
+                    android:text="@string/limas_segiempat" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu_prisma_segitiga"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0000ff">
+
+                <ImageView
+                    style="@style/IconMenu"
+                    android:contentDescription="@string/prisma_segitiga"
+                    android:src="@drawable/ic_prisma_segitiga" />
+
+                <TextView
+                    style="@style/TextMenu"
+                    android:text="@string/prisma_segitiga" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu_limas_segitiga"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#cc0000">
+
+                <ImageView
+                    style="@style/IconMenu"
+                    android:contentDescription="@string/limas_segitiga"
+                    android:src="@drawable/ic_limas_segi_tiga" />
+
+                <TextView
+                    style="@style/TextMenu"
+                    android:text="@string/limas_segitiga" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu_tabung"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0099cc">
+
+                <ImageView
+                    style="@style/IconMenu"
+                    android:contentDescription="@string/silinder_tabung"
+                    android:src="@drawable/ic_tabung" />
+
+                <TextView
+                    style="@style/TextMenu"
+                    android:text="@string/silinder_tabung" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu_kerucut"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#008080">
+
+                <ImageView
+                    style="@style/IconMenu"
+                    android:contentDescription="@string/kerucut"
+                    android:src="@drawable/ic_kerucut" />
+
+                <TextView
+                    style="@style/TextMenu"
+                    android:text="@string/kerucut" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/menu_bola"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#228A29">
+
+                <ImageView
+                    style="@style/IconMenu"
+                    android:contentDescription="@string/kerucut"
+                    android:src="@drawable/ic_bola" />
+
+                <TextView
+                    style="@style/TextMenu"
+                    android:text="@string/bola" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
