@@ -1,4 +1,4 @@
-# Welcome to HacktoberFest 2018!
+# Welcome to HacktoberFest 2019!
 
 * Follow these steps to make your first pull request-
 
@@ -12,6 +12,7 @@ git commit -m "your name"
 git push origin master
 ```
 5. Then create your pull request.
-6. Star my [repository](https://github.com/Dhroov7/HacktoberFest2018).
+6. Star my [repository](https://github.com/Dhroov7/HacktoberFest2019).
 7. Congratulations!! You have successfully created your pull request.
-8. Check your progress here (https://hacktoberfest.digitalocean.com/stats)
+8. Check your progress here (https://hacktoberfest.digitalocean.com/profile)
+9. Wait for your shirt.
