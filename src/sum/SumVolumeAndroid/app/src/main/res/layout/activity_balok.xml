@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BalokActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ContentDescription"
+            android:text="@string/balok_desc"/>
+
+        <ImageView
+            style="@style/ImageContent"
+            android:src="@drawable/balok"
+            android:contentDescription="@string/balok"/>
+
+        <TextView
+            style="@style/FunctionName"
+            android:text="@string/luas_permukaan"/>
+
+        <TextView
+            style="@style/Function"
+            android:text="@string/balok_rumus_luas"/>
+
+        <TextView
+            style="@style/FunctionName"
+            android:text="@string/volume" />
+
+        <TextView
+            style="@style/Function"
+            android:text="@string/balok_rumus_volume"/>
+
+        <TextView
+            style="@style/FunctionName"
+            android:text="Hitung Luas Permukaan &amp; Volume"/>
+
+        <EditText
+            android:id="@+id/edit_text_panjang_balok"
+            style="@style/Form"
+            android:hint="Panjang"/>
+
+        <EditText
+            android:id="@+id/edit_text_lebar_balok"
+            style="@style/Form"
+            android:hint="Lebar"/>
+
+        <EditText
+            android:id="@+id/edit_text_tinggi_balok"
+            style="@style/Form"
+            android:hint="Tinggi"/>
+
+        <Button
+            style="@style/ButtonCalculate"
+            android:id="@+id/button_calculate" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    style="@style/Result"
+                    android:text="Luas Permukaan : "/>
+
+                <TextView
+                    android:id="@+id/text_view_luas_result"
+                    style="@style/Result"
+                    android:text="@string/hasil"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    style="@style/Result"
+                    android:text="Volume                 : "/>
+
+                <TextView
+                    android:id="@+id/text_view_volume_result"
+                    style="@style/Result"
+                    android:text="@string/hasil"/>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

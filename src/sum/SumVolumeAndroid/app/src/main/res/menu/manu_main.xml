@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/rate"
+        android:title="@string/rate"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/feedback"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/about_me"
+        android:title="@string/tentang_saya"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.erikriosetiawan.cubecalc.KerucutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ContentDescription"
+            android:text="@string/kerucut_desc" />
+
+        <ImageView
+            style="@style/ImageContent"
+            android:contentDescription="@string/kerucut"
+            android:src="@drawable/kerucut" />
+
+        <TextView
+            style="@style/FunctionName"
+            android:text="@string/luas_permukaan" />
+
+        <TextView
+            style="@style/Function"
+            android:text="@string/kerucut_luas" />
+
+        <TextView
+            style="@style/FunctionName"
+            android:text="@string/volume" />
+
+        <TextView
+            style="@style/Function"
+            android:text="@string/kerucut_volume" />
+
+        <EditText
+            android:id="@+id/edit_text_jari_jari"
+            style="@style/Form"
+            android:hint="Jari-Jari" />
+
+        <EditText
+            android:id="@+id/edit_text_panjang_sisi"
+            style="@style/Form"
+            android:hint="Panjang Sisi" />
+
+        <EditText
+            android:id="@+id/edit_text_tinggi"
+            style="@style/Form"
+            android:hint="Tinggi" />
+
+        <Button
+            android:id="@+id/button_calculate"
+            style="@style/ButtonCalculate" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    style="@style/Result"
+                    android:text="Luas Permukaan : " />
+
+                <TextView
+                    android:id="@+id/text_view_luas_result"
+                    style="@style/Result"
+                    android:text="@string/hasil" />
+
+            </TableRow>
+
+            <TableRow android:gravity="center">
+
+                <TextView
+                    style="@style/Result"
+                    android:text="Volume                 : " />
+
+                <TextView
+                    android:id="@+id/text_view_volume_result"
+                    style="@style/Result"
+                    android:text="@string/hasil" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>
