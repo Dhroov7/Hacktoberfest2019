@@ -1,0 +1,9 @@
+nav {
+    background-color: rgb(52, 47, 54);
+    padding: 2%;
+}
+
+nav h1 {
+    color: white;
+    text-align: center;
+}
