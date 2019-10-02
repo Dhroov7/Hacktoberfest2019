@@ -7,8 +7,7 @@
 3. Add your name in Contributors.md file.
 4. Write these command on your terminal-
 ```
-git add -A
-git commit -m "your name"
+git commit -am "your name"
 git push origin master
 ```
 5. Then create your pull request.
