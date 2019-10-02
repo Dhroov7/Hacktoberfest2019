@@ -1,0 +1,1 @@
+Holds the 10-number draw and tells if it is even or odd.
