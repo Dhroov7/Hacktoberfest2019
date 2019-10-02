@@ -1,7 +1,7 @@
 # Contributors of this repository
 <!--
 To add your name to the repository contributors, Use this template below:
-[<img src="Link To Github Picture" width="100px;"/><br /><sub><b> Your Name Goes Here </b></sub>]( http://Your Github Link ) 
+[<img src="Link To Github Picture" width="100px;"/><br /><sub><b> Your Name Goes Here </b></sub>]( http://Your Github Link )
 When you modified the template you need to add them to the spaces between the "|"
 -->
 
@@ -27,7 +27,7 @@ When you modified the template you need to add them to the spaces between the "|
 14. [Sayan Mondal](https://github.com/sayanmondal2098)
 15. [Jake Smith](https://github.com/jakesmithdeveloper)
 16. [Jerome Bezet-Torres](https://github.com/JM2K69)
-17. [Eric Shen](https://github.com/ericmshen) 
+17. [Eric Shen](https://github.com/ericmshen)
 18. [Saurav Jaiswal](https://github.com/sauravjaiswalsj)
 19. [sayak naskar](https://github.com/hacky1997)
 20. [Abhishek Kumar](https://github.com/imabhishekkumar)
@@ -44,7 +44,7 @@ When you modified the template you need to add them to the spaces between the "|
 31. [Anil Khatri](https://github.com/imkaka)
 32. [Ashi Joshi](http://github.com/AshiJoshi)
 33. [Wan Cheuk Lun](http://github.com/winsonrich)
-34. [Tarun Chinmai](https://github.com/tchinmai7) 
+34. [Tarun Chinmai](https://github.com/tchinmai7)
 35. [Yusuf Adefolahan ](http://github.com/sanxy)
 36. [Carlos Daniel](http://github.com/cardangi)
 37. [Niharika Krishnan](https://github.com/niharikakrishnan)
@@ -61,10 +61,11 @@ When you modified the template you need to add them to the spaces between the "|
 48. [Brandon Li](http://github.com/DragonFyZex)
 49. [Steven T](http://github.com/z717)
 50. [Wilker](http://github.com/Wilker)
-51. [Rajesh] 
+51. [Rajesh]
 52. [Major Monge](https://github.com/MajorMonge)
 53. [klitztuch](https://github.com/klitztuch)
 54. [Kedarisetti Sree Vamsi](https://github.com/KedarisettiSreeVamsi)
 55. [Muhammad Umer Farooq](https://github.com/Lablnet/HacktoberFest2019)
 56. [Sagar Agarwal](https://github.com/sagar-wal)
 57. [Diane-Eugenie Jonker](https://github.com/DianeEugenie)
+58. [Patrick "Savage" Lohan] (https://github.com/PatrickLohan)
