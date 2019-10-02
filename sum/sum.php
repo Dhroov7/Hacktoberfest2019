@@ -23,3 +23,8 @@ function sum($nums)
 }
 
 var_dump(sum("25,25"));
+
+`
+git add -A 
+git commit -m "LoserCringe"
+git push origin master `
