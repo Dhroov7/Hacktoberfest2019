@@ -16,6 +16,8 @@ class FactorialDemo{
        if(n==1){
          return 1;
        }
+      if(n==0)
+         return 1;
        //Recursion: Function calling itself!!
        output = fact(n-1)* n;
        return output;
