@@ -1,0 +1,180 @@
+<html>
+    <body>
+        <div id="container">
+        </div>
+        <script>
+            /* this is an attempt to do the task set in the nature of code book in pure javascript
+            it is a genetic algorithm! It simulates predator and prey eating each other and evolving
+            */
+            //the main variables of this program!
+            var population_of_blobs = [];
+            var population_of_antiblobs = [];
+            //var population_of_food=[];
+            //animation constants:
+            const number_of_food=900;
+            const arena_area_x = 1000;
+            const arena_area_y = 400;
+            const hp = 100;
+            const speed = 20;
+            const speed_of_predator=50;
+            const population_number=200;
+            const antiblob_population_number =50;
+            const reproduction_interval=15000;
+            //initializing the food of the prey!
+            /*for( let i = 0;i<number_of_food;i++){
+                let size = Math.floor(Math.random()*20);
+                let hp_increase = Math.round(size/10)*10;
+                let posx=Math.floor(Math.random()*arena_area_x);
+                let posy=Math.floor(Math.random()*arena_area_y);
+                population_of_food.push([(i.toString()+"e"),size,hp_increase,posx,posy]);
+                document.getElementById("container").innerHTML+="<div id="+i.toString()+"e"+"></div>";
+                let id3=i.toString()+"e";
+                document.getElementById(id3).style.height=size;
+                document.getElementById(id3).style.width=size;
+                document.getElementById(id3).style.position="absolute";
+                document.getElementById(id3).style.left=posx;
+                document.getElementById(id3).style.top=posy;
+                document.getElementById(id3).style.backgroundColor="brown";
+                //document.getElementById(id3).style.borderRadius="100px";
+            }
+            */
+            //initializing the food of the predators
+            for (let i = 0;i< population_number;i++){
+                let size = Math.floor(Math.random()*50);
+                let jump_space = 50/size;
+                let posx = Math.floor(Math.random()*arena_area_x);
+                let posy = Math.floor(Math.random()*arena_area_y);
+                population_of_blobs.push([i,size,jump_space,posx,posy,hp]);
+                document.getElementById("container").innerHTML+="<div id="+i.toString()+"></div>";
+                document.getElementById(i).style.height = size;
+                document.getElementById(i).style.width=size;
+                document.getElementById(i).style.position="absolute";
+                document.getElementById(i).style.left = posx;
+                document.getElementById(i).style.top = posy;
+                document.getElementById(i).style.backgroundColor="green";
+                //document.getElementById(i).style.borderRadius="100px";
+            }
+            //moving the pitied stupid food of the predators!
+            function move_blob(){
+                for(let i = 0;i<population_of_blobs.length;i++){
+                    let posx = population_of_blobs[i][3]+Math.floor(Math.random()*(population_of_blobs[i][2]));
+                    if(posx>arena_area_x){
+                        posx =0;
+                    }
+                    let posy = population_of_blobs[i][4]+Math.floor(Math.random()*population_of_blobs[i][2]);
+                    if(posy>arena_area_y){
+                        posy=0
+                    }
+                    let tha_hp=population_of_blobs[i][5];
+                    let size = population_of_blobs[i][1];
+                    let id = population_of_blobs[i][0];
+                    let jump_space = population_of_blobs[i][2];
+                    population_of_blobs[id]=[id,size,jump_space,posx,posy,tha_hp];
+                    document.getElementById(id).style.left=posx;
+                    document.getElementById(id).style.top=posy;
+                }
+            }
+            var move_the_blob = setInterval(move_blob,speed);
+            //antiblob time!!!!
+            // initializing the predators.the rulers.
+            var ext_counter=population_of_blobs.length;
+            for (let i = 0;i< antiblob_population_number;i++){
+                let size = Math.floor(Math.random()*50);
+                let jump_space = 150/size;
+                let posx = Math.floor(Math.random()*arena_area_x);
+                let posy = Math.floor(Math.random()*arena_area_y);
+                let idi = i+"o";
+                population_of_antiblobs.push([idi,size,jump_space,posx,posy]);
+                document.getElementById("container").innerHTML+="<div id="+idi+"></div>";
+                document.getElementById(idi).style.height = size;
+                document.getElementById(idi).style.width=size;
+                document.getElementById(idi).style.position="absolute";
+                document.getElementById(idi).style.left = posx;
+                document.getElementById(idi).style.top = posy;
+                document.getElementById(idi).style.backgroundColor="red";
+                //document.getElementById(idi).style.borderRadius="100px";
+                ext_counter++;
+            }
+            //moving the predators
+            function move_antiblob(){
+                for(let i = 0;i<population_of_antiblobs.length;i++){
+                    let posx = population_of_antiblobs[i][3]+Math.floor(Math.random()*population_of_antiblobs[i][2]);
+                    if(posx>arena_area_x){
+                        posx =0;
+                    }
+                    let posy = population_of_antiblobs[i][4]+Math.floor(Math.random()*population_of_antiblobs[i][2]);
+                    if(posy>arena_area_y){
+                        posy=0
+                    }
+                    let size = population_of_antiblobs[i][1];
+                    let id = population_of_antiblobs[i][0];
+                    let jump_space = population_of_antiblobs[i][2];
+                    population_of_antiblobs[i]=[id,size,jump_space,posx,posy,hp];
+                    document.getElementById(id).style.left=posx;
+                    document.getElementById(id).style.top=posy;
+                }
+            }
+            var move_the_antiblob = setInterval(move_antiblob,speed_of_predator);
+            //crash check
+            function blob_crash(){
+                for(let i=0;i<population_of_blobs.length;i++){
+                    for(let v=0;v<population_of_antiblobs.length;v++){
+                        if(population_of_blobs[i][3] == population_of_antiblobs[v][3]){
+                        if(population_of_blobs[i][4] == population_of_antiblobs[v][4]){
+                            population_of_blobs[i]=[0,0,0,0,0,0];
+                            document.getElementById(i).style.height=0;
+                            document.getElementById(i).style.width=0;
+                        } 
+                        } 
+                    }
+                }
+                /*for(let i = 0;i<population_of_blobs.length;i++){
+                    for(let v=0;v<population_of_food;v++){
+                        if(population_of_blobs[i][3]==population_of_food[v][3]){
+                            if(population_of_blobs[i][4]==population_of_food[v][4]){
+                                population_of_blobs[i][5]+=population_of_food[v][2];
+                                population_of_food[v]=[0,0,0,0,0];
+                            }
+                        }
+                    }
+                }*/
+            }
+            var crash=setInterval(blob_crash,10);
+            //hp loss
+            var ext_cont =100;
+            function hp_loss(){
+                for(let i=0;i<population_of_blobs.length;i++){
+                    let hhp = population_of_blobs[i][5];
+                    population_of_blobs[i][5]=hhp-1;
+                    if(hhp<0){
+                    population_of_blobs[i]=[0,0,0,0,0,0];
+                    document.getElementById(i).style.height=0;
+                    document.getElementById(i).style.width=0;
+                }
+                }                
+            }
+            var hploss=setInterval(hp_loss,1000);
+            //reproduce!!!
+            //each blob has a x% chance of reproducing every n number of seconds
+            function reproduce(){
+                for(let i = 0;i<population_of_blobs.length;i++){
+                    var random_luck=Math.floor(Math.random()*10);
+                    if(random_luck===3){
+                        var id = population_of_blobs.length;
+                        var posx = Math.floor(Math.random()*arena_area_x);
+                        var posy =  Math.floor(Math.random()*arena_area_y);
+                        population_of_blobs.push([id,population_of_blobs[i][1],population_of_blobs[i][2],posx,posy,hp]);
+                        document.getElementById("container").innerHTML+="<div id="+id.toString()+"></div>";
+                        document.getElementById(id).style.height = population_of_blobs[i][1];
+                        document.getElementById(id).style.width=population_of_blobs[i][1];
+                        document.getElementById(id).style.position="absolute";
+                        document.getElementById(id).style.left = posx;
+                        document.getElementById(id).style.top = posy;
+                        document.getElementById(id).style.backgroundColor="green";
+                    }
+                }
+            }
+            var reproducee = setInterval(reproduce,reproduction_interval);
+        </script>
+    </body>
+</html>
