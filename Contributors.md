@@ -13,6 +13,7 @@ When you modified the template you need to add them to the spaces between the "|
 [<img src="https://avatars0.githubusercontent.com/u/6343910?s=400&v=4" width="100px;"/><br /><sub><b>AlminCode</b></sub>]( https://github.com/AlminCode ) | 
 [<img src="https://avatars2.githubusercontent.com/u/24442087?s=400&v=4" width="100px;"/><br /><sub><b>Arthur Novais</b></sub>](https://github.com/Arthurcn96) | 
 [<img src="https://avatars2.githubusercontent.com/u/42396957?s=460&v=4" width="100px;"/><br /><sub><b>Eric Shen</b></sub>](http://github.com/ericmshen) |
+---: | :---: |---: | :---: |---: | :---: |---: | ---: |
 [<img src="https://avatars0.githubusercontent.com/u/43535195?s=400&v=4" width="100px;"/><br /><sub><b>Fredrik Butler</b></sub>]( https://github.com/fredrikbw ) | 
 [<img src="https://avatars0.githubusercontent.com/u/34238240?s=40&v=4" width="100px;"/><br /><sub><b>Pranav Gupta</b></sub>](https://github.com/pg07codes)<br /> |
 [<img src="https://avatars1.githubusercontent.com/u/7880027?s=400&u=9d1615a7b3ef1429201504a517e8e7db4f39c6f2&v=4a" width="100px;"/><br /><sub><b>Tarun Chinmai</b></sub>]( https://github.com/Tchinmai7) |
