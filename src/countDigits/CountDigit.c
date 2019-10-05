@@ -1,10 +1,9 @@
 #include<stdio.h>
 long long int count(long long int n)
 {
-	long long int a=0;
 	if(n==0)
 	{
-		return a;
+		return 0;
 	}
 	else
 	{
