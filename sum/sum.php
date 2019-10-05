@@ -7,7 +7,7 @@
  * 
  * @return int
  */
-function sum($nums)
+function sum($nums) /* initialize function
 {
 
     $answer = 0;
