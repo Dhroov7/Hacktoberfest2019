@@ -1,4 +1,4 @@
-# Contributors of this repository
+﻿# Contributors of this repository
 <!--
 To add your name to the repository contributors, Use this template below:
 [<img src="Link To Github Picture" width="100px;"/><br /><sub><b> Your Name Goes Here </b></sub>]( http://Your Github Link ) 
@@ -9,6 +9,7 @@ When you modified the template you need to add them to the spaces between the "|
 ---: | :---: |---: | :---: |---: | :---: |---: | ---: |
 |[<img src="https://avatars0.githubusercontent.com/u/43535195?s=400&v=4" width="100px;"/><br /><sub><b> Fredrik Butler </b></sub>]( https://github.com/fredrikbw ) | [<img src="https://avatars0.githubusercontent.com/u/34238240?s=40&v=4" width="100px;"/><br /><sub><b>Pranav Gupta</b></sub>](https://github.com/pg07codes)<br /> |
 [<img src="https://avatars1.githubusercontent.com/u/7880027?s=400&u=9d1615a7b3ef1429201504a517e8e7db4f39c6f2&v=4a" width="100px;"/><br /><sub><b> Tarun Chinmai </b></sub>]( https://github.com/Tchinmai7 )
+[<img src="https://avatars1.githubusercontent.com/u/40857328?s=400&u=71c65e0e9aabb85e1dba8ddb03e2250f15eacb9a&v=4" width="100px;"/><br /><sub><b>Arya Surya</b></sub>]( https://github.com/aryasurya21) | 
 |<!--Enter your modified link here-->|<!--Enter your modified link here-->|<!--Enter your modified link here-->|<!--Enter your modified link here-->|<!--Enter your modified link here-->|
 
 1. [Dhroov Gupta](http://github.com/Dhroov7)
@@ -67,3 +68,4 @@ When you modified the template you need to add them to the spaces between the "|
 54. [Kedarisetti Sree Vamsi](https://github.com/KedarisettiSreeVamsi)
 55. [Muhammad Umer Farooq](https://github.com/Lablnet/HacktoberFest2019)
 56. [Sagar Agarwal](https://github.com/sagar-wal)
+57. [Arya Surya](https://github.com/aryasurya21)
