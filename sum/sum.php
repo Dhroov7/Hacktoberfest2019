@@ -22,4 +22,4 @@ function sum($nums)
     return $answer;
 }
 
-var_dump(sum("25,25"));
+var_dump(sum("30,30"));
