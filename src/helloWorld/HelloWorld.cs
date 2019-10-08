@@ -2,7 +2,7 @@ using System;
 namespace HelloWorldApp { 
       
     // Class declaration 
-    class Geeks { 
+    class Hacktober { 
           
         // Main Method 
         static void Main(string[] args) { 
