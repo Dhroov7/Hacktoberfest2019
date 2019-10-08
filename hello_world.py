@@ -1,2 +1,4 @@
 print('Hello World')
-#this is a hello world program written in python programming language.
+#Hello World written in Python.
+#Easiest program to write.
+
