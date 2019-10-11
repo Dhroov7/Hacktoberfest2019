@@ -1,5 +1,15 @@
 # Welcome to HacktoberFest 2019!
 
+#### NOTE: :x: This repo has been excluded from Hacktoberfest.:x:
+
+---
+
+### If you're looking for creating PRs for HacktoberFest, **you may look into few good first issues [here](https://vinitshahdeo.github.io/HacktoberFest2K19/)** which are up for grabs. :heavy_check_mark: 
+
+> #### :white_check_mark: [Link to the repository](https://github.com/vinitshahdeo/HacktoberFest2K19)
+
+---
+
 * Follow these steps to make your first pull request-
 
 1. Fork this repository.
