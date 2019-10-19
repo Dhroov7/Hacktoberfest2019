@@ -1,10 +1,10 @@
 # Welcome to HacktoberFest 2019!
 
-#### NOTE: :x: This repo has been excluded from Hacktoberfest.:x:
+#### NOTE: : x: This repo has been excluded from Hacktoberfest.:x:
 
 ---
 
-### If you're looking for creating PRs for HacktoberFest, **you may look into few good first issues [here](https://vinitshahdeo.github.io/HacktoberFest2K19/)** which are up for grabs. :heavy_check_mark: 
+### If you're looking for creating PRs for HacktoberFest, **you may look into few good first issues [here] (https://vinitshahdeo.github.io/HacktoberFest2K19/)** which are up for grabs. :heavy_check_mark: 
 
 > #### :white_check_mark: [Link to the repository](https://github.com/vinitshahdeo/HacktoberFest2K19)
 
@@ -15,7 +15,7 @@
 1. Fork this repository.
 2. Clone your forked repository to your local machine.
 3. Add your name in Contributors.md file.
-4. Write these command on your terminal-
+4. Write these commands on your terminal-
 ```
 git add -A
 git commit -m "your name"
