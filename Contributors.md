@@ -70,3 +70,8 @@ When you modified the template you need to add them to the spaces between the "|
 55. [Muhammad Umer Farooq](https://github.com/Lablnet/HacktoberFest2019)
 56. [Sagar Agarwal](https://github.com/sagar-wal)
 57. 56. [Vishnu Vijayan](https://github.com/VishnuuVijayan)
+58. [Ananda Nur](https://github.com/anandanur92)
+59. [Fikri Imaduddin](https://github.com/fikri011100)
+60. [Judson Kerller] (https://github.com/juds-kerller)
+61. [@emmanuelJet](https://github.com/emmanuelJet)
+62. [Hishan Kavishka](https://github.com/Hishan98)
