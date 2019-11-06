@@ -13,6 +13,10 @@ When you modified the template you need to add them to the spaces between the "|
 [<img src="https://avatars1.githubusercontent.com/u/7880027?s=400&u=9d1615a7b3ef1429201504a517e8e7db4f39c6f2&v=4a" width="100px;"/><br /><sub><b> Tarun Chinmai </b></sub>](https://github.com/Tchinmai7)
 |<!--Enter your modified link here-->|<!--Enter your modified link here-->|<!--Enter your modified link here-->|<!--Enter your modified link here-->|<!--Enter your modified link here-->|
 
+
+[<img src="https://tanaytoshniwal.me/assets/images/icon_favo.jpg" width="100px;"/><br /><sub><b> Tanay Toshniwal </b></sub>](https://github.com/tanaytoshniwal)
+
+
 1. [Dhroov Gupta](http://github.com/Dhroov7)
 2. [Rafed M. Yasir](https://github.com/rafed123)
 3. [Vinay Sagar Sharma](https://github.com/vinay72)
