@@ -1,0 +1,1 @@
+print("Your number is {0} letter(s) long".format(len(input("Write your number:\n"))))
