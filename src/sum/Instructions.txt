@@ -1,3 +1,27 @@
-- Create a sum function in any programming language you want.
+- Create a sum function
+#include <iostream>
+int sum(int n);
 
-- Add that file in sum folder.
+using namespace std;
+
+int main()
+{
+int sum, n;
+
+sum=sum(n);
+
+cout<<"Your total is:"<<sum<<endl;
+return 0;
+
+}
+int sum (int n)
+{
+int total_sum, i;
+cout<<:Input number:"
+cin>>i;
+cout<<endl;
+for(int n=0; n<=i;n++)
+
+total_sum=total_sum+n;
+return (tota_sum);
+}
