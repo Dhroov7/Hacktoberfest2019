@@ -12,6 +12,6 @@ int main() {
     int input;
     printf("Enter the number to find the factorial: ");
     scanf("%d", &input);
-    printf("Factorial: %d", fact(input));
+    printf("Factorial is: %d", fact(input));
     return 0;
 }
