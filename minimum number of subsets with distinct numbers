@@ -1,0 +1,29 @@
+
+
+def subset(ar, n): 
+
+	# take input and initialize res = 0 
+	res = 0
+
+	
+	ar.sort() 
+
+	
+	for i in range(0, n) : 
+		count = 1
+
+		for i in range(n - 1): 
+			if ar[i] == ar[i + 1]: 
+				count+=1
+			else: 
+				break
+			
+		 
+		res = max(res, count) 
+	
+	return res 
+
+ar = [ 5, 6, 9, 3, 4, 3, 4 ] 
+n = len(ar) 
+print(subset(ar, n)) 
+
