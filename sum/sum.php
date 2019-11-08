@@ -1,8 +1,9 @@
 <?php 
+/
 
 /**
  * Calculate sum of numbers.
- * 
+ * @author rishabh kumar
  * @param (string) $nums Numbers seperated with comma.
  * 
  * @return int
