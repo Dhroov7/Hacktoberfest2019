@@ -1,0 +1,2 @@
+- Individual interested in developing applications
+- I prefer Java, JavaScript
