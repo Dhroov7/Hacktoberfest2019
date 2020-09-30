@@ -1,4 +1,4 @@
-# Welcome to HacktoberFest 2019!
+# Welcome to HacktoberFest 2020!
 
 ## NOTE: :x: This repo has been excluded from Hacktoberfest.:x:
 
@@ -27,4 +27,4 @@ git push origin master
 6. Star my [repository](https://github.com/Dhroov7/HacktoberFest2019).
 7. Congratulations!! You have successfully created your pull request.
 8. Check your progress here (https://hacktoberfest.digitalocean.com/profile)
-9. Wait for your shirt.
+9. Wait for your T-shirt.
