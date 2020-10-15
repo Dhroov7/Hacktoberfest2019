@@ -1,4 +1,4 @@
-# Welcome to HacktoberFest 2019!
+# Welcome to HACKTOBERFEST 2019!
 
 ## NOTE: :x: This repo has been excluded from Hacktoberfest.:x:
 
