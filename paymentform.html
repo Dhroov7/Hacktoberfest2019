@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Payment Form
+        </title>
+    </head>
+    
+    <body>
+        <form action = "">
+            <h1>Payment Form</h1>
+            <hr>
+
+            <p>Required Fields are Followed by</p>
+
+            <hr>
+
+            <h2>Contact Information</h2>
+            <p> <h3>Name : * <input type = "text" name = "name" required></h3></p>
+
+            <fieldset>
+            <legend><h3>Gender : * </h3></legend>
+            
+            <p>
+                Male <input type = "radio" name = "gender" id = "Male" required>
+                Female <input type = "radio" name = "gender" id = "Female" required>
+            </p>
+            
+            </fieldset>
+
+            <!--<legend> Address: </legend>-->
+            <h3> Address:</h3>
+            <p> <textarea name = "address" id = "address" cols = "50"  rows = "8"></textarea></p>
+
+           
+            <!--<p><input type = "email" name = "email" id ="email"></p>-->
+            <h3>Email : *  </h3>
+            <p> <textarea name = "email" id = "email" cols = "30" rows = "5" required></textarea></p>
+
+           
+            <p> <h3>Pincode : * <input type = "number" name = "pincode" id = "pincode" required></h3></p>
+
+            <hr>
+            <h1>Payment Information</h1>
+
+            <hr>
+            <p>
+                <h3>Card Type: * <select name = "Card_type" id = " card_type" required>
+                    <option value = "">--Select a Card Type--></option>
+                    <option value = "visa">Visa</option>
+                    <option value = "rupay">Rupay</option>
+                    <option value = "sbi">SBI Card</option>
+                    <option value = "master card">Master Card</option>
+                </select> </h3>
+            </p>
+            <hr>
+
+            <p>
+                <h3>Card Number : * &nbsp;<input type = "number" name = "card_number" id = "card_number" required></h3>
+            </p>
+
+            <p>
+                <h3>Expiry Date Of Card : * &nbsp; <input type = "date" name = "exp_date" id="exp_date" required></h3>
+            </p>
+
+            <p>
+                <h3>CVV : * &nbsp;<input type = "password" name = "cvv" id = "cvv" required></h3>
+            </p>
+
+            <input type = "submit" value = "Pay Now">
+        </form>
+    </body>
+</html>
